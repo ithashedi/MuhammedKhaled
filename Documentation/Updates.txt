@@ -1,0 +1,44 @@
+Kerge vCard HTML Template Updates
+
+==============================================================
+v1.0
+==============================================================
+
+Initial release
+
+==============================================================
+v2.0 (17 September 2018)
+==============================================================
+- Added: New variant of the template (Version 2)
+- Added: New block: Info List
+- Improved: CSS
+- Improved: jQuery: Page switching animation
+- Improved: Documentation.
+
+The upgrade process from version 1.0 to version 2.0 is described in the documentation.
+
+==============================================================
+v2.1 (28 September 2018)
+==============================================================
+- Template Version 1: About Me Subpage: Added a text slider with information about professional activities
+- All versions of the template: Improved arrow navigation.
+
+The upgrade process from version 2.0 to version 2.1 is described in the documentation.
+
+==============================================================
+v2.2 (26 October 2018)
+==============================================================
+- Added block with copyrights information. By analogy with the WordPress theme.
+
+The upgrade process from version 2.1 to version 2.2 is described in the documentation.
+
+==============================================================
+v2.3 (26 March 2019)
+==============================================================
+- Added dark versions for both versions of the template.
+
+==============================================================
+v2.4 (17 January 2020)
+==============================================================
+- New versions of the template are added - One-page versions.
+- Improved: Animated Versions: Styles.

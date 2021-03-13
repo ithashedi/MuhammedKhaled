@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Kerge - Resume / CV / vCard Template v2.4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Kerge - Resume / CV / vCard Template" />
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, material, portfolio" />
+    <meta name="author" content="lmtheme" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title">
+              <h1>Kerge - Resume / CV / vCard Template v2.4. Animated Version.</h1> 
+              <h4>Complete Documentation</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <h3>Thank you very much for purchasing from LMPixels!</h3>
+            <p>If you have any issue or question that this document does not cover, you can contact us via email <a href="mailto:help@lmpixels.com">help@lmpixels.com</a>.</p>
+
+            <h2>Table of Contents</h2>
+            <ol>
+              <li><a href="#installing">Template Installation</a></li>
+              <li><a href="#html_structure">HTML Structure</a></li>
+              <li><a href="#css_structure">CSS Files and Structure</a></li>
+              <li><a href="#scripts">Scripts</a></li>
+              <li><a href="#php_integration">PHP Integration (Contact Form)</a></li>
+              <li><a href="#fonts">Fonts</a></li>
+              <li><a href="#credits">Credits</a></li>
+              <li><a href="#customization">Customization</a></li>
+              <li><a href="#updates">Updates</a></li>
+              <li><a href="#faq">FAQ</li>
+            </ol>
+
+
+            <h2 id="installing">Template Installation</h2>
+            <p>You can view this template in any web browser from your computer, mobile device. Because the files are written in HTML, you do not need an internet connection in order to display or edit the template.</p>
+            <p>All of the HTML files are given a descriptive name to make it easier to distingish what each file will display.</p>
+            <h3 style="margin-bottom:10px;">Upload to The Server</h3>
+            <ol>
+              <li>It's important to understand that you must either have your own server space or use someone elses. The server space can be purchased at many different places around the internet. You need somewhere to put the files that you purchased so others can find them online.</li>
+              <li>Select several files with the extension labeled <em>.html</em>. This is where all your content will. In addition to .html you should see a file labeled <em>.css</em>. <em>.css</em> files are going to be the files that will tell the .html how to to be styled. CSS is simply a way to take text, images, and other elements and change the look of them. It's very important to keep the <em>.css</em> file with the HTML or the HTML will not look how the design is meant to look. Along with the HTML and CSS files, you will also have three additional folders to upload: <em>images, js and php</em>.</li>
+              <li>Start your FTP client (I persoanlly use Filezila which is free) and login. Login to your server. You will need your server name (often times this will be your domain name), username, and password that you setup with the hosting company.</li>
+              <li>Locate the domain folder you wish to upload your template files to on your server. You are going to want to click and drag every file that you have labeled <em>.html, .css, .js, .php</em> into your FTP client.</li>
+              <li>Once the files are done uploading, you can try access your website via browser.</li>
+            </ol>
+
+            <h2 id="html_structure">HTML Structure</h2>
+
+            <p>This site template has a Responsive and Mobile-Friendly layout based on Bootstrap Boilerplate.</p>
+
+            <h3>HTML files</h3>
+            <ol>
+              <li><strong>index.html</strong> - main HTML file of this site template.
+                <p>The main structure of this site is wrapped in a <em>'subpages'</em> div. Inside of that div you will find sections of the site.</p>
+                <div><img src="images/html_structure.jpg" alt="Html Structure"></div>
+              </li>
+
+              <li><strong>portfolio-1.html</strong> - HTML file with Portfolio page content.</li>
+
+              <li><strong>blog-post-1.html</strong> - HTML file with Blog post page content.</li>
+            </ol>
+
+
+            <h2 id="css_structure">CSS Files and Structure</h2>
+
+            <p>We are using one main CSS file <em>(main.css)</em> in this template which you are free to modify depending on the customization you require.</p>
+
+            <p>If you would like to edit the color, font, or style of any elements, you would do the following in <em>css/main.css</em> :</p>
+
+            <div><img src="images/main_css.jpg" alt="main.css"></div>
+
+            <p>If you would like to edit a specific section or page of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p>
+
+            <p>There are also five additional style sheets that I do not recommend changing. Those style sheets reside in the <em>'css'</em> folder. The 5 style sheets are:</p>
+
+            <ul class="square">
+              <li><strong>bootstrap.css</strong> - A Beautiful Boilerplate for Responsive, Mobile-Friendly Development.</li>
+              <li><strong>bootstrap.min.css</strong> - Minified version of <strong>bootstrap.css</strong>.</li>
+              <li><strong>normalize.css</strong> - Normalize.css is a customisable CSS file that makes browsers render all elements more consistently and in line with modern standards.</li>
+              <li><strong>animations.css</strong> - CSS3 animation sets for subpages changer.</li>
+              <li><strong>owl.carousel.css</strong> - The main stylesheet for Carousels (Testimonials block on About me subpage &amp; Portfolio details page).</li>
+              <li><strong>magnific-popup.css</strong> -  The main stylesheet for styling the lightbox.</li>
+              <li><strong>animate.css</strong> -  CSS3 animation sets for portfolio content loading.</li>
+            </ul>
+
+            <p>These files are included in the <strong>'head'</strong> of <strong>index.html</strong> and <strong>blog-post-1.html</strong>:</p>
+            <div><img src="images/head_css.jpg" alt=""></div>
+
+            <h2 id="scripts">Scripts</h2>
+            <p>This template uses several scripts. If you're a developer, you will find this particularly useful.</p>
+
+            <ul class="circle">
+              <li><strong>jquery-2.1.3.min.js</strong> (version 2.1.3) - used by the various JS files as a library.</li>
+              <li><strong>bootstrap.min.js</strong> - <a href="http://getbootstrap.com/javascript/">Bootstrap JS.</a></li>
+              <li><strong>imagesloaded.pkgd.min.js</strong> - <a href="http://imagesloaded.desandro.com/">Detect when images have been loaded.</a></li>
+              <li><strong>jquery.shuffle.min.js</strong> - <a href="https://vestride.github.io/Shuffle/">Categorize, sort, and filter a responsive grid of items.</a></li>
+              <li><strong>jquery.magnific-popup.min.js</strong> - <a href="http://dimsemenov.com/plugins/magnific-popup/">Magnific Popup is a responsive lightbox & dialog script with focus on performance and providing best experience for user with any device.</a></li>
+              <li><strong>masonry.pkgd.min.js</strong> - <a href="http://masonry.desandro.com/">Cascading grid layout library</a></li>
+              <li><strong>modernizr.custom.js</strong> - <a href="http://modernizr.com/">Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser</a></li>
+              <li><strong>owl.carousel.min.js</strong> - <a href="https://owlcarousel2.github.io/OwlCarousel2/">Touch enabled jQuery plugin that lets you create a beautiful responsive carousel slider.</a></li>
+              <li><strong>pages-switcher.js</strong> - Page transitions and ajax loaded pages.</li>
+              <li><strong>validator.js</strong> - <a href="https://github.com/1000hz/bootstrap-validator">Contact form validator.</a></li>
+              <li><strong>main.js</strong> - jQuery Plugins Initialisation, mobile menu, page loading animation.</li>
+            </ul>
+
+            <h2 id="php_integration">PHP Integration (Contact Form)</h2>
+            <p>This template also use the PHP engine for activate the contact form. <strong>Important:</strong> For the functioning of the contact form on <strong>your hosting</strong> should be <strong>PHP</strong>.</p>
+            <p>Please replace the email address with your email address, this address will receive messages from the contact form in the <em>/contact_form/contact_form.php</em> file.</p>
+            <div><img src="images/contact_form.jpg" alt=""></div>
+
+            <h2 id="fonts">Fonts</h2>
+            <ul class="circle">         
+              <li>Helvetica, Sans-serif (both should be on your system as standard fonts)</li> 
+              <li>Google Fonts <a href="http://www.google.com/webfonts/specimen/Poppins">Poppins</a>.</li>
+              <li><a href="https://fontawesome.com/icons?d=gallery&m=free">Font Awesome Free version 5.3.1 </a>(The complete set of 1,341 icons).</li>
+              <li><a href="https://linearicons.com/free">Linearicons Free Font</a>.</li>
+              <li><a href="http://themes-pixeden.com/font-demos/7-stroke/index.html">7 stroke icons font by Pixeden</a>.</li>
+            </ul>
+
+            <h2 id="credits">Credits</h2>
+
+            <p>Images (Just on live preview, not included in download package):
+            <ul>
+               <li><a href="https://pixabay.com/">https://pixabay.com/</a></li>
+            </ul>
+
+            <p>Videos</p>
+            <ul>
+              <li><a href="https://vimeo.com/channels/staffpicks" target="_blank">https://vimeo.com/channels/staffpicks</a></li>
+            </ul>
+
+
+            <h2 id="customization">Customization</h2>
+            <ol>
+              <li><a href="#custom_files-editing">About files editing</a></li>
+              <li><a href="#custom_main-title">Main title</a></li>
+              <li><a href="#custom_subpage-title">Subpage title</a></li>
+              <li><a href="#custom_new-subpage">Adding new subpage</a></li>
+              <li><a href="#custom_animation-effects">Subpages animation effects. Random animations mode</a></li>
+              <li><a href="#custom_resume-subpage">Edit resume subpage</a></li>
+              <li><a href="#custom_services-subpage">Edit services subpage</a></li>
+              <li><a href="#custom_portfolio-subpage">Edit portfolio subpage</a></li>
+              <li><a href="#custom_video-embeding">YouTube and Vimeo Video Embedding</a></li>
+              <li><a href="#custom_recaptcha">Google Recaptcha V2 options</a></li>
+              <li><a href="#custom_maps">Google Map</a></li>
+            </ol>
+
+            <h3 id="custom_files-editing">1. About files editing</h3>
+            <p>For editing files I recommend you use <a href="https://sublimetext.com/2" target="_blank">Sublime Text 2</a> or similar program. Convenient following functions: syntax highlighting, find and replace function (to accelerate editing), etc.</p>
+
+            <hr>
+
+            <h3 id="custom_main-title">2. Main title</h3>
+            <h4>Desktop header version:</h4>
+            <ol>
+              <li>Open index.html or blog-post-1.html.</li>
+              <li>Go to lines with <pre>
+&lt;div class="site-title-block"&gt;
+  &lt;div class="site-title"&gt;Alex Smith&lt;/div&gt;
+&lt;/div&gt;</pre></li>
+              <li>Change text.</li>
+              <li>Save file.</li>
+            </ol>
+
+            <h4>Tablet and mobile header version:</h4>
+            <ol>
+              <li>Open index.html or blog-post-1.html.</li>
+              <li>Go to lines with <pre>
+&lt;div class="mobile-logo-container"&gt;
+  &lt;div class="mobile-site-title"&gt;Alex Smith&lt;/div&gt;
+&lt;/div&gt;</pre></li>
+              <li>Change text value.</li>
+              <li>Save file.</li>
+            </ol>
+
+
+            <h3 id="custom_subpage-title">3. Subpage title</h3>
+            For example, the subpage "About me":
+            <ol>
+              <li>Open index.html.</li>
+              <li>Go to <em>'section'</em> that you need edit. In our example is <pre>&lt;section class="pt-page" data-id="resume"&gt;</pre>
+              <li>Find <em>'div'</em> with <em>class="section-title-block"</em>.</li>
+              <li>Go to lines with <pre>
+&lt;div class="section-title-block second-style"&gt;
+  &lt;h2 class="section-title"&gt;Resume&lt;/h2&gt;
+  &lt;h5 class="section-description"&gt;7 Years of Experience&lt;/h5&gt;
+&lt;/div&gt;
+</pre>
+              <li>Change text value.</li>
+              <li>Save file.</li>
+            </ol>
+
+            <hr>
+
+            <h3 id="custom_new-subpage">4. Adding new subpage</h3>
+            <ol>
+              <li>Open index.html.</li>
+              <li>Go to <em>'div'</em> with <em>class="subpages"</em>. Subpage is <em>'section'</em> with HTML tags: <pre>
+&lt;section class="pt-page" data-id="resume"&gt;
+  &lt;div class="section-inner custom-page-content"&gt;
+    &lt;div class="section-title-block second-style"&gt;
+      &lt;h2 class="section-title"&gt;Resume&lt;/h2&gt;
+      &lt;h5 class="section-description"&gt;7 Years of Experience&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class="section-content"&gt;
+
+      &lt;div class="row"&gt;
+        Our columns with content.
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;</pre>
+                <p>In our demo 5 sections:</p>
+                <ol>
+                  <li><strong>About Me (start)</strong> &lt;section class="pt-page" data-id="about-me"&gt;</li>
+                  <li><strong>Resume</strong> &lt;section class="pt-page" data-id="resume"&gt;</li>
+                  <li><strong>Portfolio</strong> &lt;section class="pt-page" data-id="portfolio"&gt;</li>
+                  <li><strong>Blog</strong> &lt;section class="pt-page" data-id="blog"&gt;</li>
+                  <li><strong>Contact</strong> &lt;section class="pt-page" data-id="contact"&gt;</li>
+                </ol>
+
+                <p>As you can see in the sections change attribute <em>data-id</em>. These values we need for the operation of the site navigation (main menu and the browser buttons "go back" and "go forward").</p>
+              </li>
+              <li>For example, add the section "Extra". After existing sections do make a new one with <em>data-id="extra"</em>.</li>
+              <li>We get a section: <pre>
+&lt;section class="pt-page" data-id="extra"&gt;
+  &lt;div class="section-inner custom-page-content"&gt;
+    &lt;div class="section-title-block second-style"&gt;
+      &lt;h2 class="section-title">&gt;Extra&lt;/h2&gt;
+      &lt;h5 class="section-description"&gt;Extra Section&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class="section-content"&gt;
+
+      &lt;div class="row"&gt;
+        Our columns with content.
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;</pre></li>
+              <li>Now we need to add a new item to the <strong>main menu</strong>. The main menu has the following structure: <pre>
+&lt;!-- Main menu --&gt;
+&lt;ul id="nav" class="site-main-menu"&gt;
+  &lt;li&gt;
+    &lt;a class="pt-trigger" href="#about-me"&gt;About Me&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a class="pt-trigger" href="#resume"&gt;Resume&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a class="pt-trigger" href="#portfolio"&gt;Portfolio&lt;/a>
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a class="pt-trigger" href="#blog"&gt;Blog&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a class="pt-trigger" href="#contact"&gt;Contact&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a class="pt-trigger" href="#extra"&gt;Extra&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- /Main menu --&gt;
+</pre>
+<p>Where you can add<em>data-animation="*"</em>, is the number of animation effect. More details about the animation effects you can read <a href="#custom_animation-effects">here</a>.</p>
+</li>
+              <li>Add a new item: <pre>
+&lt;li&gt;
+    &lt;a class="pt-trigger" href="#extra"&gt;Extra&lt;/a&gt;
+  &lt;/li&gt;</pre></li>
+              <li>Save file.</li>
+            </ol>
+
+            <hr>
+
+            <h3 id="custom_animation-effects">5. Subpages animation effects. Random animations mode.</h3>
+            <h4>5.1. Subpages animation effects</h4>
+            <p>You can select any of the <strong>67</strong> variants of the animation. To do this, you need to specify the attribute <em>'data-animations'</em> with the appropriate amount of animation for the respective menu item. Example:</p>
+<pre>
+&lt;li&gt;
+  &lt;a class="pt-trigger" href="#extra" <strong>data-animation="17"</strong>&gt;&lt;/i&gt;Services&lt;/a&gt;
+&lt;/li&gt;</pre>
+            <p>List of animation options:</p>
+<pre>1:
+out effect: move to Left;
+in effect: move from Right;
+
+2:
+out effect: move to Right;
+in effect: move from Left;
+
+3:
+out effect: move to Top;
+in effect: move from Bottom;
+
+4:
+out effect: move to Bottom;
+in effect: move from Top;
+
+5:
+out effect: fade;
+in effect: move from Right on top;
+
+6:
+out effect: fade;
+in effect: move from Left on top;
+
+7:
+out effect: fade;
+in effect: move from Bottom on top;
+
+8:
+out effect: fade;
+in effect: move from Top on top;
+
+9:
+out effect: move to Left Fade;
+in effect: move from Right Fade;
+
+10:
+out effect: move to Right Fade;
+in effect: move from Left Fade;
+
+11:
+out effect: move to Top Fade;
+in effect: move from Bottom Fade;
+
+12:
+out effect: move to Bottom Fade;
+in effect: move from Top Fade;
+
+13:
+out effect: move to Left Easing on top;
+in effect: move from Right;
+
+14:
+out effect: move to Right Easing on top;
+in effect: move from Left;
+
+15:
+out effect: move to Top Easing on top;
+in effect: move from Bottom;
+
+16:
+out effect: move to Bottom Easing on top;
+in effect: move from Top;
+
+17:
+out effect: scale Down;
+in effect: move from Right on top;
+
+18:
+out effect: scale Down;
+in effect: move from Left on top;
+
+19:
+out effect: scale Down;
+in effect: move from Bottom on top;
+
+20:
+out effect: scale Down;
+in effect: move from Top on top;
+
+21:
+out effect: scale Down;
+in effect: scale Up Down delay300;
+
+22:
+out effect: scale Down Up;
+in effect: scale Up delay300;
+
+23:
+out effect: move to Left on top;
+in effect: scale Up;
+
+24:
+out effect: move to Right on top;
+in effect: scale Up;
+
+25:
+out effect: move to Top on top;
+in effect: scale Up;
+
+26:
+out effect: move to Bottom on top;
+in effect: scale Up;
+
+27:
+out effect: scale Down Center;
+in effect: scale Up Center delay400;
+
+28:
+out effect: rotate Right Side First;
+in effect: move from Right delay200 on top;
+
+29:
+out effect: rotate Left Side First;
+in effect: move from Left delay200 on top;
+
+30:
+out effect: rotate Top Side First;
+in effect: move from Top delay200 on top;
+
+31:
+out effect: rotate Bottom Side First;
+in effect: move from Bottom delay200 on top;
+
+32:
+out effect: flip Out Right;
+in effect: flip In Left delay500;
+
+33:
+out effect: flip Out Left;
+in effect: flip In Right delay500;
+
+34:
+out effect: flip Out Top;
+in effect: flip In Bottom delay500;
+
+35:
+out effect: flip Out Bottom;
+in effect: flip In Top delay500;
+
+36:
+out effect: rotate Fall on top;
+in effect: scale Up;
+
+37:
+out effect: rotate Out Newspaper;
+in effect: rotate In Newspaper delay500;
+
+38:
+out effect: rotate Push Left;
+in effect: move from Right;
+
+39:
+out effect: rotate Push Right;
+in effect: move from Left;
+
+40:
+out effect: rotate Push Top;
+in effect: move from Bottom;
+
+41:
+out effect: rotate Push Bottom;
+in effect: move from Top;
+
+42:
+out effect: rotate Push Left;
+in effect: rotate Pull Right delay180;
+
+43:
+out effect: rotate Push Right;
+in effect: rotate Pull Left delay180;
+
+44:
+out effect: rotate Push Top;
+in effect: rotate Pull Bottom delay180;
+
+45:
+out effect: rotate Push Bottom;
+in effect: rotate Pull Top delay180;
+
+46:
+out effect: rotate Fold Left;
+in effect: move from Right Fade;
+
+47:
+out effect: rotate Fold Right;
+in effect: move from Left Fade;
+
+48:
+out effect: rotate Fold Top;
+in effect: move from Bottom Fade;
+
+49:
+out effect: rotate Fold Bottom;
+in effect: move from Top Fade;
+
+50:
+out effect: move to Right Fade;
+in effect: rotate Unfold Left;
+
+51:
+out effect: move to Left Fade;
+in effect: rotate Unfold Right;
+
+52:
+out effect: move to Bottom Fade;
+in effect: rotate Unfold Top;
+
+53:
+out effect: move to Top Fade;
+in effect: rotate Unfold Bottom;
+
+54:
+out effect: rotate Room Left Out on top;
+in effect: rotate Room Left In;
+
+55:
+out effect: rotate Room Right Out on top;
+in effect: rotate Room Right In;
+
+56:
+out effect: rotate Room Top Out on top;
+in effect: rotate Room Top In;
+
+57:
+out effect: rotate Room Bottom Out on top;
+in effect: rotate Room Bottom In;
+
+58:
+out effect: rotate Cube Left Out on top;
+in effect: rotate Cube Left In;
+
+59:
+out effect: rotate Cube Right Out on top;
+in effect: rotate Cube Right In;
+
+60:
+out effect: rotate Cube Top Out on top;
+in effect: rotate Cube Top In;
+
+61:
+out effect: rotate Cube Bottom Out on top;
+in effect: rotate Cube Bottom In;
+
+62:
+out effect: rotate Carousel Left Out on top;
+in effect: rotate Carousel Left In;
+
+63:
+out effect: rotate Carousel Right Out on top;
+in effect: rotate CarouselRight In;
+
+64:
+out effect: rotate Carousel Top Out on top;
+in effect: rotate Carousel Top In;
+
+65:
+out effect: rotate Carousel Bottom Out on top;
+in effect: rotate Carousel Bottom In;
+
+66:
+out effect: rotate Sides Out;
+in effect: rotate Sides In delay200;
+
+67:
+out effect: rotate Slide Out;
+in effect: rotate Slide In;
+</pre>
+            <h4>5.2. Random animations mode</h4>
+            <p>To activate a random animation mode, you need to remove the attribute <em>'data-animation'</em> from the menu item. Example:</p>
+<pre>
+&lt;li&gt;
+  &lt;a class="pt-trigger" href="#resume"&gt;&lt;/i&gt;Resume&lt;/a&gt;
+&lt;/li&gt;</pre>
+            <p>In this case, random animation will be applied, one of 67.</p>
+
+            <hr>
+
+            <h3 id="custom_resume-subpage">6. Edit resume subpage</h3>
+
+            <h4>6.1. Skills</h4>
+            <p>Skill block:</p>
+<pre>
+&lt;!-- Skill 1 --&gt;
+&lt;div class="clearfix"&gt;
+  &lt;h4>Web Design&lt;/h4&gt;
+  &lt;div class="skill-value"&gt;95%&lt;/div&gt;
+&lt;/div>
+&lt;div class="skill-container"&gt;
+  &lt;div class="skill-percentage skill-1"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- /Skill 1 --&gt;</pre>
+
+            <p>The value for the <em>&lt;div class="skill-percentage skill-1"&gt;</em> set in the <em>css/main.css file</em>:</p>
+<pre>
+.skill-percentage.skill-1 {
+  width: 95%;
+}</pre>
+
+            <hr>
+
+            <h3 id="custom_services-subpage">7. Edit services subpage</h3>
+
+            <h4>7.1. Services</h4>
+            <ol>
+              <li>Open index.html file.</li>
+              <li>Find <em>'div'</em> with <em>'class="info-block-w-icon"</em></li>
+              <li>Edit text in the following <em>'div'</em>:<pre>
+&lt;div class="ci-text"&gt;
+  &lt;h4>Copywriter&lt;/h4&gt;
+  &lt;p&gt;Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales odio.&lt;/p&gt;
+&lt;/div&gt;</pre>
+              </li>
+              <li>Replace the icon in the following <em>'div:'</em><pre>
+&lt;div class="ci-icon"&gt;
+  &lt;i class="lnr lnr-pencil"&gt;&lt;/i&gt;
+&lt;/div&gt;</pre>
+                You can choose an icon from the following fonts: <a href="https://fontawesome.com/icons?d=gallery&m=free">Font Awesome Free version 5.3.1 </a>(The complete set of 1,341 icons), <a href="https://linearicons.com/free">Linearicons Free Font</a>, <a href="http://themes-pixeden.com/font-demos/7-stroke/index.html">7 stroke icons font by Pixeden</a>.
+              </li>
+              
+              <li>Save file.</li>
+
+              <li>If you want to use an icon image instead of a font icon, you need to do the following:</li>
+
+              <li>Replace this code:<pre>
+&lt;div class="ci-icon"&gt;
+  &lt;i class="lnr lnr-pencil"&gt;&lt;/i&gt;
+&lt;/div&gt;</pre>
+              </li>
+
+              <li>With this code:<pre>
+&lt;div class="ci-icon"&gt;
+  &lt;img src="images/service/web_design_icon.png" alt="Service"&gt;
+&lt;/div&gt;</pre>
+              Where you need to replace the <em>'src'</em> to the path to your image (icon).
+              </li>
+            </ol>
+
+            <hr>
+
+            <h3 id="custom_portfolio-subpage">8. Edit portfolio subpage</h3>
+            <p>The structure of the "Portfolio" subpage:</p>
+<pre>&lt;!-- Portfolio Content --&gt;
+&lt;div class="portfolio-content"&gt;
+
+  &lt;ul class="portfolio-filters"&gt;
+    &lt;li class="active"&gt;
+      &lt;a class="filter btn btn-sm btn-link" data-group="category_all"&gt;All&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a class="filter btn btn-sm btn-link" data-group="category_media"&gt;Media&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a class="filter btn btn-sm btn-link" data-group="category_mockups"&gt;Mockups&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a class="filter btn btn-sm btn-link" data-group="category_soundcloud"&gt;SoundCloud&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a class="filter btn btn-sm btn-link" data-group="category_vimeo-videos"&gt;Vimeo Videos&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a class="filter btn btn-sm btn-link" data-group="category_youtube-videos"&gt;YouTube Videos&lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;!-- Portfolio Grid --&gt;
+  &lt;div class="portfolio-grid three-columns"&gt;
+    
+    &lt;figure class="item lbaudio" data-groups='["category_all", "category_soundcloud"]'&gt;
+      &lt;div class="portfolio-item-img"&gt;
+        &lt;img src="images/portfolio/1.jpg" alt="SoundCloud Audio" title="" /&gt;
+        &lt;a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221650664&#038;color=%23ff5500&#038;auto_play=false&#038;hide_related=false&#038;show_comments=true&#038;show_user=true&#038;show_reposts=false&#038;show_teaser=true&#038;visual=true" class="lightbox mfp-iframe" title="SoundCloud Audio"&gt;&lt;/a&gt;
+      &lt;/div&gt;
+
+      &lt;i class="fa fa-volume-up"&gt;&lt;/i&gt;
+      &lt;h4 class="name"&gt;SoundCloud Audio&lt;/h4&gt;
+      &lt;span class="category"&gt;SoundCloud&lt;/span&gt;
+    &lt;/figure&gt;
+    ...
+  &lt;/div&gt;
+  &lt;!-- /Portfolio Grid --&gt;
+&lt;/div&gt;
+&lt;!-- /Portfolio Content --&gt;</pre>
+            <p>Each item in the portfolio grid should be wrapped in the HTML tag &lt;figure&gt;...&lt;/figure&gt;</p>
+            <p>You can add two types of content:</p>
+              <ol>
+                <li>Page loaded via Ajax (page containing the image, carousel, video, etc., and a full description). <em>portfolio-1.html</em> a file content.</li>
+                <li>Content displayed via LightBox (Full image or video and caption).</li>
+              </ol>
+
+            <h4>8.1. Portfolio details page loaded via Ajax</h4>
+            <p>Link will have a class of <em>"ajax-page-load"</em> and the href attribute with a path to the HTML page (portfolio-1.html etc.):</p>
+<pre>
+&lt;figure class="item standard" data-groups='["category_all", "category_media"]'&gt;
+  &lt;div class="portfolio-item-img"&gt;
+    &lt;img src="images/portfolio/2.jpg" alt="Media Project 2" title="" /&gt;
+    &lt;a href="portfolio-1.html" class="ajax-page-load"&gt;&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;i class="far fa-file-alt"&gt;&lt;/i&gt;
+  &lt;h4 class="name"&gt;Media Project 2&lt;/h4&gt;
+  &lt;span class="category"&gt;Media&lt;/span&gt;
+&lt;/figure&gt;</pre>
+
+            <div class="alert alert-warning">
+              <p><strong>Note :</strong> To test this Ajax loading you need to place the HTML files on a web server. You can set up a local web server on your PC by installing WampServer or XAMPP. You must open the portfolio page (example portfolio-1.html) file using "http://" since Ajax makes HTTP requests.</p>
+
+              <p>Ajax request can be made only to the files that exist on the same web server that servers the page from which the Ajax request is sent, not to external or remote servers for security reasons. This is called same-origin policy.</p>
+            </div>
+
+            <h4>8.2. Content displayed via LightBox</h4>
+            <ol>
+              <li>To display the <strong>image</strong> link will have a class of <em>"lightbox"</em> and the href attribute with a path to the image: <pre>
+&lt;figure class="item lbimage" data-groups='["category_all", "category_mockups"]'&gt;
+  &lt;div class="portfolio-item-img"&gt;
+    &lt;img src="images/portfolio/5.jpg" alt="Mockup Design 1" title="" /&gt;
+    &lt;a class="lightbox" title="Mockup Design 1" href="https://lmpixels.com/wp/kerge-wp/wp-content/uploads/2018/04/11.jpg"&gt;&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;i class="far fa-image"&gt;&lt;/i&gt;
+  &lt;h4 class="name"&gt;Mockup Design 1&lt;/h4&gt;
+  &lt;span class="category"&gt;Mockups&lt;/span&gt;
+&lt;/figure&gt;</pre>
+              </li>
+
+              <li>To display the <strong>video</strong> link will have a classes of <em>"lightbox mfp-iframe"</em> and the href attribute with a URL to the video:<pre>
+&lt;figure class="item lbvideo" data-groups='["category_all", "category_youtube-videos"]'&gt;
+  &lt;div class="portfolio-item-img"&gt;
+    &lt;img src="images/portfolio/6.jpg" alt="YouTube Video 1" title="" /&gt;
+    &lt;a href="https://www.youtube.com/embed/bg0gv2YpIok" class="lightbox mfp-iframe" title="YouTube Video 1"&gt;&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;i class="fas fa-video"&gt;&lt;/i&gt;
+  &lt;h4 class="name"&gt;YouTube Video 1&lt;/h4&gt;
+  &lt;span class="category"&gt;YouTube Videos&lt;/span&gt;
+&lt;/figure&gt;</pre>
+              </li>
+            </ol>
+
+            <hr>
+
+            <h3 id="custom_video-embeding">9. YouTube and Vimeo Video Embedding</h3>
+            <p>Link format for embedding videos:</p>
+            <p><strong>YouTube</strong>: https://www.youtube.com/embed/id. Example: https://www.youtube.com/embed/w5tWYmIOWGk</p>
+            <p><strong>Vimeo</strong>: https://player.vimeo.com/video/id. Example: https://player.vimeo.com/video/97102654</p>
+
+            <div class="alert alert-warning">
+              <p><strong>Note :</strong> To test video loading you need to place the HTML files on a web server. You can set up a local web server on your PC by installing WampServer or XAMPP.</p>
+            </div>
+
+            <hr>
+
+            <h3 id="custom_recaptcha">10. Google Recaptcha V2 options</h3>
+            <p>By default, the template uses global Google Recaptcha V2 keys, if you want to use your keys, then you can create new keys <a href="https://www.google.com/recaptcha/admin" target="_blank">here</a>.</p>
+            <p>1. Replace site key in the index.html:</p>
+            <img src="images/site-key.png" alt="Google Recaptcha V2 Site Key">
+            <p>2. Replace Site secret key in the contact_form/contact_form.php:</p>
+            <img src="images/site-secret-key.png" alt="Google Recaptcha V2 Site Secret Key">
+
+            <hr>
+
+            <h3 id="custom_maps">11. Google Map</h3>
+            <h4>Change of address</h4>
+            <ol>
+              <li>Open js/main.js file</li>
+              <li>Go to lines:
+<pre>
+//Google Maps
+$("#map").googleMap({
+    zoom: 16 // Google Map ZOOM. You can change this value
+});
+$("#map").addMarker({
+    address: "S601 Townsend Street, San Francisco, California, USA", // Your Address. Change it
+});</pre> and replace "S601 Townsend Street, San Francisco, California, USA" with your address.</li>
+              <li>Save file.</li>
+            </ol>
+
+            <h4>API key</h4>
+            <p>If Google Maps does not work, then you need to create a key for Google Maps and add it to the index.html file. To create the key, go <a href="https://developers.google.com/maps/documentation/javascript/get-api-key?hl=ru" target="_blank">here</a>.</p>
+
+            <p>After you have created the key, add it to the index.html, for this:</p>
+            <ol>
+              <li>Open index.html file</li>
+              <li>Go to line - &lt;script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"&gt;&lt;/script&gt; and remove it</li>
+              <li>Find this line - &lt;!--&lt;script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY"&gt;&lt;/script&gt;--&gt; and replace it with &lt;script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY"&gt;&lt;/script&gt;. Instead of "YOUR-API-KEY" paste the code that you received on Google's website.</li>
+              <li>Save file.</li>
+            </ol>
+
+            <h4>Removing Google Maps</h4>
+            <p>To remove Google Maps from the page, do the following:</p>
+            <ol>
+              <li>Open index.html.file</li>
+              <li>Go to line:<pre>&lt;script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"&gt;&lt;/script&gt;</pre> and remove it.</li>
+              <li>Go to line:<pre>&lt;!--&lt;script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY"&gt;&lt;/script&gt;--&gt;</pre> and remove it.</li>
+              <li>Go to line:<pre>&lt;script type="text/javascript" src="js/jquery.googlemap.js"&gt;&lt;/script&gt;</pre> and remove it.</li>
+              <li>Go to line:<pre>&lt;div id="map" class="map"&gt;&lt;/div&gt;</pre> and remove it.</li>
+              <li>Save index.html file</li>
+              <li>Open js/main.js file</li>
+              <li>Go to lines:
+<pre>
+ //Google Maps
+$("#map").googleMap({
+    zoom: 16 // Google Map ZOOM. You can change this value
+});
+$("#map").addMarker({
+    address: "S601 Townsend Street, San Francisco, California, USA", // Your Address. Change it
+});</pre> and delete them.</li>
+              <li>Save file.</li>
+            </ol>
+
+            <hr>
+
+            <h2 id="updates">Updates</h2>
+            <h3 id="update-v2">The upgrade process from version 1.0 to version 2.0 (17 September 2018)</h3>
+
+            <ol>
+              <li>Open index.html</li>
+              <li>Find these lines:<pre>
+&lt;!-- Mobile Header --&gt;
+&lt;div class="mobile-header mobile-visible"&gt;
+  &lt;div class="mobile-logo-container"&gt;
+    &lt;div class="mobile-header-image"&gt;
+      &lt;a href="#"&gt;
+          &lt;img src="images/photo.jpg" alt="image"&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class="mobile-site-title"&gt;&lt;a href="#"&gt;Alex Smith&lt;/a&gt;&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;a class="menu-toggle mobile-visible"&gt;
+    &lt;i class="fa fa-bars"&gt;&lt;/i&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;!-- /Mobile Header --&gt;</pre>
+              </li>
+
+              <li>After these lines add these lines: <pre>
+&lt;!-- Arrows Nav --&gt;
+&lt;div class="lmpixels-arrows-nav"&gt;
+  &lt;div class="lmpixels-arrow-left"&gt;&lt;i class="lnr lnr-chevron-left"&gt;&lt;/i&gt;&lt;/div&gt;
+  &lt;div class="lmpixels-arrow-right"&gt;&lt;i class="lnr lnr-chevron-right"&gt;&lt;/i&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- /Arrows Nav --&gt;</pre>
+              <li>Save changes</li>
+              <li>Open css/main.css</li>
+              <li>At the end of the file, add these lines: <pre>
+/* ============================================================================= 
+12. Updates
+============================================================================= */
+/* v2.0 - 17 September 2018 */
+.pt-page.start-page {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding-left: 15px;
+  overflow: hidden;
+}
+
+.start-page .section-inner {
+  background-color: transparent;
+  background-image: url(../images/kerge_start_page_1.jpg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.start-page .section-inner .mask {
+  content: '';
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(10,10,10,0.45);
+}
+
+.start-page .title-block {
+  position: relative;
+  text-align: center;
+}
+
+.start-page .title-block h2 {
+  color: #fff;
+  font-size: 70px;
+  margin: 0;
+  text-align: center;
+}
+
+.start-page .title-block .sp-subtitle {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 300;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.start-page .vcentered {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.lm-info-block.gray-bg {
+  background-color: #fafafa;
+}
+
+.lm-info-block .lm-info-block-value {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  display: block;
+  margin: 10px 0;
+  color: #0099e5;
+}
+
+.lmpixels-arrows-nav {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  z-index: 100;
+}
+
+.lmpixels-arrows-nav > div {
+  display: inline-block;
+  padding: 0;
+  background-color: #fafafa;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  cursor: pointer;
+  border: 1px solid #e5e5e5;
+  color: #333;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,.1);
+  -moz-box-shadow: 0 0 8px 0 rgba(0,0,0,.1);
+  box-shadow: 0 0 8px 0 rgba(0,0,0,.1);
+}
+
+.lmpixels-arrows-nav > div:hover {
+  color: #0099e5;
+}
+
+.info-list {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.info-list li {
+  margin: 6px 0;
+  text-align: left;
+}
+
+.info-list li .title {
+  display: inline-block;
+  font-weight: 600;
+  margin-right: 15px;
+}
+
+.info-list li .title:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #0099e5;
+}
+
+@media only screen and (max-width: 991px) {
+  .pt-page.start-page {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .start-page .title-block h2 {
+    font-size: 42px;
+  }
+  .start-page .title-block .sp-subtitle {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .lmpixels-arrows-nav > div {
+    height: 34px;
+    width: 34px;
+    line-height: 34px;
+  }
+}
+/* /v2.0 */
+</pre>
+              </li>
+              <li>hese are the styles for the template with the main color - Blue (#0099e5). If you use a different color, then replace this Hex code.</li>
+              <li>Save changes.</li>
+              <li>Open js/pages-switcher.js file</li>
+              <li>Find these lines: <pre>
+activeMenuItem(menuLink);
+
+Animate(menuLink);
+
+$('body').append('<div id="page-ajax-loaded" class="page-ajax-loaded animated rotateInDownRight"></div>');
+ajaxLoader();</pre>
+              </li>
+              <li>After these lines add this lines: <pre>
+$(".lmpixels-arrow-right").click(function() {
+    $('.site-main-menu li.active').next("li").children("a").click();
+});
+
+$(".lmpixels-arrow-left").click(function() {
+    $('.site-main-menu li.active').prev("li").children("a").click();
+});</pre>
+              </li>
+              <li>Save changes.</li>
+              <li>Clear your browser's cache. You may also need to clear your hosting cache.</li>
+            </ol>
+
+            <h3 id="update-v21">The upgrade process from version 2.0 to version 2.1 (28 September 2018)</h3>
+
+            <h4>For the first version of the template (<a href="https://lmpixels.com/demo/kerge-html/version-1/" target="_blank">Demo 1</a>)</h4>
+
+            <ol>
+              <li>Open index.html file</li>
+              <li>Find this code:<pre>
+&lt;h2 class="hp-main-title"&gt;Alex Smith&lt;/h2&gt;</pre>
+              </li>
+              <li>Before this code, add this code:<pre>
+&lt;!-- Text rotation / Subtitle --&gt;
+&lt;div class="owl-carousel text-rotation"&gt;                                    
+  &lt;div class="item"&gt;
+    &lt;div class="sp-subtitle"&gt;Web Designer&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="item"&gt;
+    &lt;div class="sp-subtitle"&gt;Frontend-developer&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- /Text rotation / Subtitle --&gt;</pre>
+              </li>
+              <li>Replace the text values - <em>Web Designer and Frontend-developer</em>, for example we added two blocks - <em>div class="item"</em>, you can how many blocks you need.</li>
+              <li>Save changes.</li>
+              <li>Open js/main.js file</li>
+              <li>Find this code:<pre>
+// Text rotation
+$('.text-rotation').owlCarousel({
+    loop: true,
+    dots: false,
+    nav: false,
+    margin: 0,
+    items: 1,
+    autoplay: true,
+    autoplayHoverPause: false,
+    autoplayTimeout: 3800,
+    animateOut: 'zoomOut',
+    animateIn: 'zoomIn'
+});</pre>
+              </li>
+              <li>Replace this lines:<pre>
+animateOut: 'zoomOut',
+animateIn: 'zoomIn'</pre>
+              </li>
+              <li>With this lines:<pre>
+animateOut: 'fadeOut',
+animateIn: 'fadeIn'</pre>
+              </li>
+              <li>Save changes</li>
+              <li>Open css/main.css</li>
+              <li>Add these styles to the end of the file:<pre>
+/* v2.1 - 28 September 2018 */
+.section-inner.start-page-full-width .hp-text-block .sp-subtitle {
+  color: #888;
+  font-weight: 300;
+}
+/* /v2.1 - 28 September 2018 */</pre>
+              </li>
+              <li>Save changes.</li>
+            </ol>
+
+            <h4>Changes for both versions of the template (<a href="https://lmpixels.com/demo/kerge-html/version-1/" target="_blank">Demo 1</a> and <a href="https://lmpixels.com/demo/kerge-html/version-2/" target="_blank">Demo 2</a>)</h4>
+
+            <ol>
+              <li>Open js/pages-switcher.js file</li>
+              <li>Find this code:<pre>
+$(".lmpixels-arrow-right").click(function() {
+    $('.site-main-menu li.active').next("li").children("a").click();
+});
+
+$(".lmpixels-arrow-left").click(function() {
+    $('.site-main-menu li.active').prev("li").children("a").click();
+});</pre>
+              </li>
+              <li>Replace it with this code<pre>
+$(".lmpixels-arrow-right").click(function() {
+    var activeItem = $('.site-main-menu li.active');
+    activeItem.next("li").children("a").click();
+    if ( activeItem.is(':last-child') ) {
+        $('.site-main-menu li:first-child').children("a").click();
+    }
+});
+
+$(".lmpixels-arrow-left").click(function() {
+    var activeItem = $('.site-main-menu li.active');
+    activeItem.prev("li").children("a").click();
+    if ( activeItem.is(':first-child') ) {
+        $('.site-main-menu li:last-child').children("a").click();
+    }
+});</pre>
+              </li>
+              <li>Save changes.</li>
+            </ol>
+
+            <h3 id="update-v22">The upgrade process from version 2.1 to version 2.2 (26 October 2018)</h3>
+            <ol>
+              <li>Open index.html file</li>
+              <li>Find this code (Header):<pre>
+&lt;!-- Social Links --&gt;
+&lt;div class="social-links"&gt;
+  &lt;a href="#" target="_blank"&gt;&lt;i class="fab fa-twitter"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;a href="#" target="_blank"&gt;&lt;i class="fab fa-linkedin"&gt;&lt;/i&gt;&lt;/a&gt;
+  &lt;a href="#" target="_blank"&gt;&lt;i class="fab fa-facebook-f"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;!-- / Social Links --&gt;</pre>
+                </li>
+                <li>Immediately after this code, add this code:<pre>
+&lt;!-- Copyrights --&gt;
+&lt;div class="copyrights"&gt;© 2018 All rights reserved.&lt;/div&gt;
+&lt;!-- / Copyrights --&gt;</pre>
+                </li>
+                <li>Save changes</li>
+                <li>Open css/main.css file</li>
+                <li>Add these styles to the end of the file:<pre>
+/* v2.2 - 26 October 2018 */
+/* Header Copyrights */
+.header .copyrights {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 5px 10px 15px;
+  line-height: 14px;
+  font-size: 12px;
+  text-align: center;
+  color: #aeaeae;
+}
+/* /Header Copyrights */
+/* /v2.2 - 26 October 2018 */
+              </li>
+              <li>Save changes.</li>
+            </ol>
+
+
+
+            <hr>
+
+            <p><strong>Note: </strong> After making changes to the template code, do not forget to clear your browser's cache and, if necessary, your hosting cache.</p>
+
+            <hr>
+            <h2 id="faq">FAQ</h2>
+            <ul>
+              <li><p><strong>Q:</strong> I work with the template on the local computer without using a server or local server and the following problem arose - the portfolio Media projects are not opened.</p></li>
+              <li><p><strong>A:</strong> These portfolio projects are opened with the help of Ajax technology, for correct operation of Ajax you need to use a server or a local server, i.e. the page of the template should be opened through the protocol <em>https://</em> or <em>https://</em>, and not throught the protocol <em>file://</em>. These are the rules of browsers. But there is one exception, it's the Mozilla Firefox browser.</p></li>
+            </ul>
+            <hr>
+
+            <p>Once again, thank you so much for purchasing this template. As I said at the beginning, I'd be glad to help you if you have any questions relating to this template.</p>
+
+          </div>
+        </div>
+    </div>
+    <footer class="container bottom copyright">
+      <div class="row">
+        <div class="col-md-12">
+         <p>Copyright © 2018 <a href="http://themeforest.net/user/lmpixels" target="_blank">lmpixels</a>, All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
